@@ -5,6 +5,17 @@ A modern, responsive, and role-based frontend for **SalonBook**, built with Next
 
 ---
 
+## 🌐 Live Production Deployments & GitHub Repositories
+
+| Target | URL |
+| :--- | :--- |
+| **🚀 Live Client Application (Vercel)** | [https://client-pi-three-30.vercel.app](https://client-pi-three-30.vercel.app) |
+| **⚡ Live Backend API (Vercel)** | [https://server-lac-ten-53.vercel.app](https://server-lac-ten-53.vercel.app) |
+| **📦 GitHub Client Repository** | [https://github.com/razzak-dev007/salonbook-client](https://github.com/razzak-dev007/salonbook-client) |
+| **📦 GitHub Server Repository** | [https://github.com/razzak-dev007/salonbook-server](https://github.com/razzak-dev007/salonbook-server) |
+
+---
+
 ## 📌 Project Overview
 SalonBook is a luxury salon appointment booking application designed to deliver a friction-free booking journey for beauty clients while providing a powerful suite of management tools for salon administrators. Clients can search services, filter by category, sort by price, submit appointment requests with slot conflict prevention, and pay securely via Stripe. Administrators can curate services, review and confirm booking requests, manage customer accounts, and monitor immutable Stripe payment logs.
 
