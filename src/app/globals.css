@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #fffdfc;
+    --bg-secondary: #fbf5f2;
+    --bg-card: #ffffff;
+    --text-primary: #1f1b24;
+    --text-secondary: #6e6570;
+    --border-color: #f0e6e2;
+    --salon-rose: #d946ef;
+    --salon-gold: #d97706;
+    --salon-accent: #e11d48;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fdf6f0;
+}
+::-webkit-scrollbar-thumb {
+  background: #e2d1c3;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c5a894;
+}
+
+/* Glass effect utilities */
+.glass-nav {
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+}
+
+.salon-gradient {
+  background: linear-gradient(135deg, #be185d 0%, #e11d48 50%, #f97316 100%);
+}
+
+.salon-gradient-subtle {
+  background: linear-gradient(135deg, #fff5f7 0%, #fffbf5 100%);
+}
+
+.salon-card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(225, 29, 72, 0.06), 0 2px 6px -1px rgba(0, 0, 0, 0.04);
+}
+
+.salon-card-shadow-hover:hover {
+  box-shadow: 0 12px 30px -4px rgba(225, 29, 72, 0.12), 0 4px 12px -2px rgba(0, 0, 0, 0.06);
+}
